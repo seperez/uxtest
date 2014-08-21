@@ -1,5 +1,5 @@
 body {
-    margin-top:10px;
+    margin-top: 10px;
     width: 700px;
 }
 
@@ -9,13 +9,18 @@ h1{
 }
 
 .clearFix{
-	clear:both;
+	clear: both;
 	display: block;
 	width: 100%;
 }
 
 .product-description .productGallery{
 	max-width: 300px;
+}
+
+.product-description .productGallery figure img{
+	max-height: 100%;
+	max-width: 100%;
 }
 
 .product-description fieldset{
