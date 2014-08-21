@@ -34,13 +34,13 @@
                 <div class="ch-g1-2">
                     <div class="productGallery ch-box-container"> 
                         <figure id="gallery" class="product-gallery">
-                            <img src="images/ipod.jpg" dat-fixed-img="images/ipod.jpg" alt="Ipod mini Apple">
+                            <img src="images/ipod.jpg" alt="Ipod mini Apple">
                         </figure>   
                     </div>
                 </div>
 
                 <div class="ch-g1-2">
-                    <form action="#" method="get">
+                    <form name="checkout" action="#" method="get">
                         <div class="ch-rightcolumn">
                             <fieldset>  
                                 <article class="price ch-price ">
@@ -52,7 +52,7 @@
                             <fieldset> 
                                 <p>
                                     <span class="label">Quantity</span>
-                                    <select name="cmbQuantity">  
+                                    <select name="cmbQuantity" id="cmbQuantity">  
                                         <option value="1">1</option>
                                         <option value="2">2</option>
                                         <option value="3">3</option>
@@ -67,7 +67,7 @@
                                 </p>
                                 <p>
                                     <span class="label">Payments</span>
-                                    <select name="cmbPayments">  
+                                    <select name="cmbPayments" id="cmbPayments">  
                                         <option value="3">3</option>
                                         <option value="6">6</option>
                                         <option value="9">9</option>
@@ -82,65 +82,70 @@
                                 <small>MercadoLibre isn't the owner of this product.</small>
                             </fieldset>
                            
-                            <div class="ch-box-container">
-                                <h3 id="carousel">More products like this</h3>
-                                <div class="otherProductsCarousel">
-                                    <ul>
-                                        <li>
-                                            <img src="images/ipod_thumb_1.jpg">
-                                        </li>
-                                        <li>
-                                            <img src="images/ipod_thumb_2.jpg">
-                                        </li>
-                                        <li>
-                                            <img src="images/ipod_thumb_3.jpg">
-                                        </li>
-                                        <li>
-                                            <img src="images/ipod_thumb_2.jpg">
-                                        </li>
-                                        <li>
-                                            <img src="images/ipod_thumb_1.jpg">
-                                        </li>
-                                        <li>
-                                            <img src="images/ipod_thumb_3.jpg">
-                                        </li>
-                                    </ul>
+                            <article>
+                                <div class="ch-box-container">
+                                    <h3 id="carousel">More products like this</h3>
+                                    <div class="otherProductsCarousel">
+                                        <ul>
+                                            <li>
+                                                <img src="images/ipod_thumb_1.jpg" alt="Otro Ipod">
+                                            </li>
+                                            <li>
+                                                <img src="images/ipod_thumb_2.jpg" alt="Otro Ipod">
+                                            </li>
+                                            <li>
+                                                <img src="images/ipod_thumb_3.jpg" alt="Otro Ipod">
+                                            </li>
+                                            <li>
+                                                <img src="images/ipod_thumb_2.jpg" alt="Otro Ipod">
+                                            </li>
+                                            <li>
+                                                <img src="images/ipod_thumb_1.jpg" alt="Otro Ipod">
+                                            </li>
+                                            <li>
+                                                <img src="images/ipod_thumb_3.jpg" alt="Otro Ipod">
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
+                            </article>
                         </div>
                     </form>
                 </div>
 
                 <div class="clearFix"></div>
                 
-                <div class="ch-box-container">
-                    <div class="moreInfoTabs">
-                        <ul>
-                            <li>
-                                <a href="#tab1-a">Product Description</a>
-                            </li>
-                            <li>
-                                <a href="#tab2-a">Questions</a>
-                            </li>
-                        </ul>
-                        <div>
-                            <div id="tab1-a">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet purus in sapien luctus sodales. Curabitur dui velit, cursus in sagittis aliquam, dictum at neque. Ut gravida scelerisque lorem non pulvinar. Pellentesque et urna vitae nisl porta imperdiet sed nec ipsum. Sed non sem velit. Cras id consectetur tellus.</p>
-                            </div>
-                            <div id="tab2-a">
-                                <strong class="text-info">Buyer</strong>
-                                <div class="ch-box-info">
-                                    <p>Do you have this one in white?</p>
+                <section>
+                    <div class="ch-box-container">
+                        <div class="moreInfoTabs">
+                            <ul>
+                                <li>
+                                    <a href="#tab1-a">Product Description</a>
+                                </li>
+                                <li>
+                                    <a href="#tab2-a">Questions</a>
+                                </li>
+                            </ul>
+                            <div>
+                                <div id="tab1-a">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet purus in sapien luctus sodales. Curabitur dui velit, cursus in sagittis aliquam, dictum at neque. Ut gravida scelerisque lorem non pulvinar. Pellentesque et urna vitae nisl porta imperdiet sed nec ipsum. Sed non sem velit. Cras id consectetur tellus.</p>
+                                    <p>Donec sit amet purus in sapien luctus sodales. Curabitur dui velit, cursus in sagittis aliquam, dictum at neque. Ut gravida scelerisque lorem non pulvinar. Pellentesque et urna vitae nisl porta imperdiet sed nec ipsum. Sed non sem velit. Cras id consectetur tellus.</p>
                                 </div>
+                                <div id="tab2-a">
+                                    <strong class="text-info">Buyer</strong>
+                                    <div class="ch-box-info">
+                                        <p>Do you have this one in white?</p>
+                                    </div>
 
-                                <strong class="text-ok">Seller</strong>
-                                <div class="ch-box-ok">
-                                    <p>No i don't, I only have black</p>
+                                    <strong class="text-ok">Seller</strong>
+                                    <div class="ch-box-ok">
+                                        <p>No i don't, I only have black</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
             </section>
         </section>
 
