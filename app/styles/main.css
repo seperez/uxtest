@@ -14,6 +14,10 @@ h1{
 	width: 100%;
 }
 
+.hidden{
+	display:none;
+}
+
 .product-description .productGallery{
 	max-width: 300px;
 }
@@ -27,7 +31,7 @@ h1{
 	margin: 10px 0;
 }
 
-.product-description span.label{
+.product-description label{
 	display: inline-block;
 	min-width: 60px;
 }

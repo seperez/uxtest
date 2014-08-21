@@ -318,11 +318,11 @@ a:focus {
      * Safari, Android, iOS
      * Legacy iOS
      */
-    src: url('../assets/icons.eot');
-    src: url('../assets/icons.eot?#iefix') format('embedded-opentype'),
-         url('../assets/icons.woff') format('woff'),
-         url('../assets/icons.ttf') format('truetype'),
-         url('../assets/icons.svg#icons') format('svg');
+    src: url('assets/icons.eot');
+    src: url('assets/icons.eot?#iefix') format('embedded-opentype'),
+         url('assets/icons.woff') format('woff'),
+         url('assets/icons.ttf') format('truetype'),
+         url('assets/icons.svg#icons') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -593,19 +593,19 @@ a:focus {
 }
 
 .ch-loading-large {
-    background-image: url('../assets/loading-big.gif');
+    background-image: url('assets/loading-big.gif');
     width: 36px;
     height: 36px;
 }
 
 .ch-loading {
-    background-image: url('../assets/loading.gif');
+    background-image: url('assets/loading.gif');
     width: 24px;
     height: 24px;
 }
 
 .ch-loading-small {
-    background-image: url('../assets/loading-small.gif');
+    background-image: url('assets/loading-small.gif');
     display: inline-block;
     width: 16px;
     height: 16px;
@@ -2798,7 +2798,7 @@ select[multiple],
 }
 
 .ch-autocomplete-loading {
-    background: url('../assets/loading-small.gif') no-repeat right 10px center;
+    background: url('assets/loading-small.gif') no-repeat right 10px center;
 }
 
 .ch-autocomplete-list .ch-icon-arrow-up {
